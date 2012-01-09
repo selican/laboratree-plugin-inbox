@@ -1,0 +1,284 @@
+/*!
+ * Ext JS Library 3.1.0
+ * Copyright(c) 2006-2009 Ext JS, LLC
+ * licensing@extjs.com
+ * http://www.extjs.com/license
+ */
+/*
+ * FileUploadField component styles
+ */
+.x-form-file-wrap {
+	position: relative;
+	height: 22px;
+}
+
+.x-form-file-wrap .x-form-file {
+	position: absolute;
+	right: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+	height: 22px;
+}
+
+.x-form-file-wrap .x-form-file-btn {
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+
+.x-form-file-wrap .x-form-file-text {
+	position: absolute;
+	left: 0;
+	z-index: 3;
+	color: #777;
+}
+/**
+ * End File Upload Component Styles and Ext License
+ */
+
+.x-grid3-row-unread td {
+	font-weight: bold;
+	background-color: #D0E0EA;
+}
+
+.contactlist-item {
+	width: 100%;
+}
+
+.contactlist-item td {
+	vertical-align: top;
+}
+
+.contactlist-item img {
+	height: 50px;
+	width: 50px;
+}
+
+.contactlist-item-image {
+	width: 55px;
+}
+
+.inbox-contactbox .x-form-field-wrap {
+	background-color: #FFFFFF;
+	background-image: url(/img/extjs/default/form/text-bg.gif) transparent no-repeat 0 0;
+	border: 1px solid #7EADD9;
+	float: left;
+}
+
+.inbox-contactbox .x-form-text {
+	height: 18px;
+	padding: 2px 0 1px 5px;
+}
+
+.inbox-contactbox-field {
+	border: none;
+	background-image: none;
+	background-color: transparent;
+	height: 23px;
+	padding: 0;
+	margin: 0;
+	width: 99%;
+}
+
+.inbox-token {
+	background-image: url(/img/extjs/default/panel/white-top-bottom.gif);
+	white-space: nowrap;
+	padding: 2px;
+	border-style: none solid solid solid;
+	border-width: 0 1px 1px 1px;
+	border-color: #00ffff;
+	margin: 2px 0 2px 3px;
+	text-decoration: none;
+	color: black;
+	cursor: text;
+	float: left;
+}
+
+.inbox-token-remove {
+	background-image: url(/img/extjs/default/panel/tool-sprites.gif);
+	background-position: 0 -0;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: inline;
+	padding: 0 6px 0 5px;
+	margin-left: 3px;
+}
+
+.inbox-message-header {
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	background: #dcf2fc;
+	text-align: right;
+}
+
+.inbox-message-header-data {
+	padding: 5px 0 5px 5px;
+
+}
+
+.inbox-message {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#inbox-div #attachments {
+	margin-bottom: 10px;
+}
+
+.inbox-attachment {
+	white-space: nowrap;
+	padding: 3px 3px 3px 18px;
+	border: 1px solid #99BBE8;
+	margin: 2px 0 2px 3px;
+	text-decoration: none;
+	color: black;
+	float: left;
+	font-weight: bold;
+	display: block;
+}
+
+.mimetype-application-msword {
+	background: url('http://www.stdicon.com/crystal/application/msword?size=16') no-repeat left center;
+}
+.mimetype-application-octet-stream {
+	background: url('http://www.stdicon.com/crystal/application/octet-stream?size=16') no-repeat left center;
+}
+.mimetype-application-pdf {
+	background: url('http://www.stdicon.com/crystal/application/pdf?size=16') no-repeat left center;
+}
+.mimetype-application-postscript {
+	background: url('http://www.stdicon.com/crystal/application/postscript?size=16') no-repeat left center;
+}
+.mimetype-application-vnd-ms-excel {
+	background: url('http://www.stdicon.com/crystal/application/vnd.ms-excel?size=16') no-repeat left center;
+}
+.mimetype-application-vnd-ms-powerpoint {
+	background: url('http://www.stdicon.com/crystal/application/vnd.ms-powerpoint?size=16') no-repeat left center;
+}
+.mimetype-application-vnd-oasis-opendocument.chart {
+	background: url('http://www.stdicon.com/crystal/application/vnd.oasis.opendocument.chart?size=16') no-repeat left center;
+}
+.mimetype-application-vnd-oasis-opendocument.database {
+	background: url('http://www.stdicon.com/crystal/application/vnd.oasis.opendocument.database?size=16') no-repeat left center;
+}
+.mimetype-application-vnd-oasis-opendocument.formula {
+	background: url('http://www.stdicon.com/crystal/application/vnd.oasis.opendocument.formula?size=16') no-repeat left center;
+}
+.mimetype-application-vnd-oasis-opendocument.graphics {
+	background: url('http://www.stdicon.com/crystal/application/vnd.oasis.opendocument.graphics?size=16') no-repeat left center;
+}
+.mimetype-application-vnd-oasis-opendocument.image {
+	background: url('http://www.stdicon.com/crystal/application/vnd.oasis.opendocument.image?size=16') no-repeat left center;
+}
+.mimetype-application-vnd-oasis-opendocument.presentation {
+	background: url('http://www.stdicon.com/crystal/application/vnd.oasis.opendocument.presentation?size=16') no-repeat left center;
+}
+.mimetype-application-vnd-oasis-opendocument.spreadsheet {
+	background: url('http://www.stdicon.com/crystal/application/vnd.oasis.opendocument.spreadsheet?size=16') no-repeat left center;
+}
+.mimetype-application-vnd-oasis-opendocument.text {
+	background: url('http://www.stdicon.com/crystal/application/vnd.oasis.opendocument.text?size=16') no-repeat left center;
+}
+.mimetype-application-x-7z-compressed {
+	background: url('http://www.stdicon.com/crystal/application/x-7z-compressed?size=16') no-repeat left center;
+}
+.mimetype-application-x-core {
+	background: url('http://www.stdicon.com/crystal/application/x-core?size=16') no-repeat left center;
+}
+.mimetype-application-x-debian-package {
+	background: url('http://www.stdicon.com/crystal/application/x-debian-package?size=16') no-repeat left center;
+}
+.mimetype-application-x-dvi {
+	background: url('http://www.stdicon.com/crystal/application/x-dvi?size=16') no-repeat left center;
+}
+.mimetype-application-x-font {
+	background: url('http://www.stdicon.com/crystal/application/x-font?size=16') no-repeat left center;
+}
+.mimetype-application-x-font-ttf {
+	background: url('http://www.stdicon.com/crystal/application/x-font-ttf?size=16') no-repeat left center;
+}
+.mimetype-application-x-httpd-php {
+	background: url('http://www.stdicon.com/crystal/application/x-httpd-php?size=16') no-repeat left center;
+}
+.mimetype-application-x-iso9660-image {
+	background: url('http://www.stdicon.com/crystal/application/x-iso9660-image?size=16') no-repeat left center;
+}
+.mimetype-application-x-redhat-package-manager {
+	background: url('http://www.stdicon.com/crystal/application/x-redhat-package-manager?size=16') no-repeat left center;
+}
+.mimetype-application-x-shockwave-flash {
+	background: url('http://www.stdicon.com/crystal/application/x-shockwave-flash?size=16') no-repeat left center;
+}
+.mimetype-application-x-tar {
+	background: url('http://www.stdicon.com/crystal/application/x-tar?size=16') no-repeat left center;
+}
+.mimetype-application-x-troff-man {
+	background: url('http://www.stdicon.com/crystal/application/x-troff-man?size=16') no-repeat left center;
+}
+.mimetype-application-x-xcf {
+	background: url('http://www.stdicon.com/crystal/application/x-xcf?size=16') no-repeat left center;
+}
+.mimetype-application-zip {
+	background: url('http://www.stdicon.com/crystal/application/zip?size=16') no-repeat left center;
+}
+.mimetype-audio-mid {
+	background: url('http://www.stdicon.com/crystal/audio/mid?size=16') no-repeat left center;
+}
+.mimetype-audio-x-generic {
+	background: url('http://www.stdicon.com/crystal/audio/x-generic?size=16') no-repeat left center;
+}
+.mimetype-audio-x-pn-realaudio {
+	background: url('http://www.stdicon.com/crystal/audio/x-pn-realaudio?size=16') no-repeat left center;
+}
+.mimetype-audio-x-realaudio {
+	background: url('http://www.stdicon.com/crystal/audio/x-realaudio?size=16') no-repeat left center;
+}
+.mimetype-image-jpeg {
+	background: url('http://www.stdicon.com/crystal/image/jpeg?size=16') no-repeat left center;
+}
+.mimetype-image-svgpxml {
+	background: url('http://www.stdicon.com/crystal/image/svg+xml?size=16') no-repeat left center;
+}
+.mimetype-image-x-generic {
+	background: url('http://www.stdicon.com/crystal/image/x-generic?size=16') no-repeat left center;
+}
+.mimetype-text-html {
+	background: url('http://www.stdicon.com/crystal/text/html?size=16') no-repeat left center;
+}
+.mimetype-text-plain {
+	background: url('http://www.stdicon.com/crystal/text/plain?size=16') no-repeat left center;
+}
+.mimetype-text-x-c {
+	background: url('http://www.stdicon.com/crystal/text/x-c?size=16') no-repeat left center;
+}
+.mimetype-text-x-cppsrc {
+	background: url('http://www.stdicon.com/crystal/text/x-c++src?size=16') no-repeat left center;
+}
+.mimetype-text-x-chdr {
+	background: url('http://www.stdicon.com/crystal/text/x-chdr?size=16') no-repeat left center;
+}
+.mimetype-text-x-csrc {
+	background: url('http://www.stdicon.com/crystal/text/x-csrc?size=16') no-repeat left center;
+}
+.mimetype-text-x-java {
+	background: url('http://www.stdicon.com/crystal/text/x-java?size=16') no-repeat left center;
+}
+.mimetype-text-x-python {
+	background: url('http://www.stdicon.com/crystal/text/x-python?size=16') no-repeat left center;
+}
+.mimetype-text-x-sh {
+	background: url('http://www.stdicon.com/crystal/text/x-sh?size=16') no-repeat left center;
+}
+.mimetype-text-x-tex {
+	background: url('http://www.stdicon.com/crystal/text/x-tex?size=16') no-repeat left center;
+}
+.mimetype-video-quicktime {
+	background: url('http://www.stdicon.com/crystal/video/quicktime?size=16') no-repeat left center;
+}
+.mimetype-video-x-generic {
+	background: url('http://www.stdicon.com/crystal/video/x-generic?size=16') no-repeat left center;
+}
